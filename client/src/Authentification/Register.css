@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@300&display=swap');
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.reg-left {
+  position: relative;
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.reg-img img {
+  height: 110vh;
+  width: auto;
+  margin-left: -60px;
+  z-index: 999;
+}
+
+.reg-right {
+  flex: 3;
+  padding: 40px;
+  margin: 20px;
+  margin-right: 50px;
+  color: #D885CB;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.register-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #9D71CC;
+  color: white;
+  border: none;
+  border-radius: 45px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.reg-right h5 {
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+
+
+.existing-account {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.existing-account a {
+  color: #D885CB;
+  text-decoration: none;
+}
+
+.existing-account a:hover {
+  text-decoration: underline;
+}
+
+.studentlogin{
+  background-color: #D885CB;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-family: 'Fredoka', sans-serif;  
+}
+
+.studentlogin:hover{
+  transform: scale(1.2);
+  background-color: #F9D8A0;
+}
+
+
+@media (max-width: 1200px) {
+  .reg-img img {
+    height: 80vh;
+    width: auto;
+    margin-left: -10px;
+  }
+
+  .register-button {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .reg-right h5 {
+    font-size: 20px;
+  }
+
+  .input {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .reg-img img {
+    height: 60vh;
+    width: auto;
+    margin-left: -10px;
+  }  
+}
+@media (max-width: 800px) {
+  .reg-img img {
+    height: 50vh;
+    width: auto;
+    margin-left: -10px;
+  }  
+}
+
+@media (max-width: 768px) {
+  .reg-img img {
+    display: none;
+  }
+
+  .register-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    margin-top: -200px;
+  }
+
+  .reg-right {
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+    max-width: 80%; /* Adjust the maximum width to your preference */
+  }
+
+  .register-button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .reg-right h5 {
+    font-size: 18px;
+  }
+
+  .input {
+    padding: 8px;
+  }
+}

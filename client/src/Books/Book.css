@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@300&display=swap');
+
+.books-scroll-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.books-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.book {
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.book:hover {
+  transform: scale(1.05);
+}
+
+.book-img img {
+  width: 100%;
+  height: auto;
+}
+
+/* Styling specific to book content */
+.book h2 {
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #9D71CC;
+}
+
+.book p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.book-btn a {
+  background-color: #D885CB;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.book-btn a:hover {
+  background-color: #75A4DB;
+}
+
+/*Book Viewer*/
+.book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.book-title {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bookpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.book-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.book-image img {
+  max-width: 60%;
+  display: block;
+  transition: transform 0.3s;
+}
+
+
+.quiz-question {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+}
+
+.quiz-options label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.quiz-options input[type="radio"] {
+  margin-right: 5px;
+}
+
+.book-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.nav-btn, .quizbtn, .bookbtn, .back-btn {
+  background-color: #f9d8a0;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+  width: 100%;
+}
+
+.nav-btn:hover, .quizbtn:hover, .bookbtn:hover, .back-btn:hover {
+  background-color: #558ac8;
+  transform: scale(1.05);
+}

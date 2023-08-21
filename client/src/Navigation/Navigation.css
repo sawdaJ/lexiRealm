@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel|Quicksand&display=swap');
+
+.nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 30px;
+    z-index: 100;
+
+}
+
+.logo img{
+    height: 45px;
+    margin-top: px;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.nav-right {
+    display: flex;  
+}
+
+.regbtn button{
+    background-color:#D885CB;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.loginbtn button{
+    background-color: #F9D8A0;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.regbtn button:hover{
+    transform: scale(1.05);
+    background-color: transparent;
+    color:#75A4DB;
+    cursor: pointer;
+
+}
+
+.loginbtn button:hover{
+    transform: scale(1.05);
+    background-color:#75A4DB;
+    color: white;
+    cursor: pointer;
+}
+
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  font-size: 20px;
+  color: #9d71cc;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #F9D8A0;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 160px;
+  padding: 10px 0;
+  z-index: 10;
+}
+
+.dropdown-item {
+  background-color: transparent;
+  border: none;
+  padding: 8px 20px;
+  color: #9d71cc;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: right;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdown-item:hover {
+  background-color: #f9d8a0;
+  color: #d885cb;
+}
+
+
+@media (max-width: 800px) { 
+    .nav-middle {
+        display: none;
+    }
+}
+

@@ -1,0 +1,126 @@
+/*Profile card*/
+.profile {
+    background-color: #9D71CC;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    height: 200px;
+    padding-left: 10px;
+}
+
+.profile h2{
+    margin-bottom: 2px;
+    font-size: 50px;
+}
+.profile p {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+  /*Childlist*/
+
+  .child-list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .child-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .child-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #D885CB;
+  }
+  
+  .child-age, .child-username, .child-progress, .child-quiz-average {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #666;
+  }
+
+  .number {
+    font-size: 1.5rem;
+    color: #D885CB;
+    font-weight: 800;
+  }
+
+  /*Add Child*/
+  /* Global styles, if any */
+ .add-child-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .toggle-form-button {
+    background-color: #75a4db;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .toggle-form-button:hover {
+    background-color: #558ac8;
+    transform: scale(1.05);
+  }
+  
+  .child-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9d8a0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .submit-button {
+    background-color: #d885cb;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #b168a2;
+    transform: scale(1.05);
+  }
+  
+  

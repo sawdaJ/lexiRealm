@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600&display=swap');
+
+.heroimg {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  margin-top: -110px;
+}
+
+.heroimg img {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgb(52, 52, 52);
+  padding: 1rem;
+  max-width: 26%;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.get-started-button {
+  background-color: #D885CB;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.get-started-button:hover {
+  background-color: #75A4DB;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/*RESPONSIVE DESIGN*/
+/* Medium screens (481px to 768px) */
+@media (max-width: 480px) {
+  .overlay p {
+    margin-top: 60px;
+    font-size: 6px;
+  }
+
+  .get-started-button {
+    font-size: 3px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .overlay p {
+    margin-top: 30px;
+    font-size: 10px;
+  }
+
+  .get-started-button {
+    font-size: 8px;
+  }
+}
+
+/* Large screens (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .overlay p {
+    margin-top: 30px;
+    font-size: 13px;
+  }
+
+  .get-started-button {
+    font-size: 12px;
+  }
+}
+
+/* Extra-large screens (1025px and above) */
+@media (min-width: 1025px) {
+  .overlay p {
+    font-size: 20px;
+  }
+
+  .get-started-button {
+    font-size: 16px;
+  }
+}
+
+/* Features section*/
+
+.features {
+    text-align: center;
+    background-color: #ffffff;
+  }
+
+  .heading {
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: -20px;
+    color: #9D71CC;
+    font-family: 'Fredoka', sans-serif;
+
+  }
+  
+  .title {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #D885CB;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .carousel-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .feature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .left {
+    flex: 1;
+  }
+
+  
+  .right {
+    flex: 1;
+  }
+  
+  .description {
+    font-size: 24px;
+    color: #484848;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .carousel .thumbs-wrapper {
+    margin-top: 20px;
+  }
+  
+  .carousel .thumb {
+    width: 12px;
+    height: 12px;
+    opacity: 0.5;
+  }
+  .carousel.carousel-slider .control-dots .dot {
+    background-color: #6F9CC5;
+    font-size: 50px; 
+  }
+  .carousel .thumb.selected {
+    opacity: 1;
+  }
+  
+  .carousel .thumb:hover {
+    opacity: 1;
+  }
+  
+  .carousel .carousel-status {
+    display: none !important;
+  }
+
+/*RESPONSIVE DESIGN*/
+/* Medium screens (481px to 768px) */
+
+@media (max-width: 1200px) {
+  .description {
+    font-size:18px;
+    color: #484848;
+    font-family: 'Quicksand', sans-serif;
+  } 
+  .title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .description {
+    font-size:15px;
+    color: #484848;
+    font-family: 'Quicksand', sans-serif;
+  }  
+  .title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .description {
+    font-size:12px;
+    color: #484848;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .title {
+    font-size: 24px;
+  }
+
+}
+@media (max-width: 600px) {
+  .description {
+    display: none;
+  }
+
+}
+
+
+
+  /* Footer Styles */
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 25px;
+  border-radius: 30px;
+}
+
+.column {
+  width: 23%;
+  margin-bottom: 20px;
+}
+
+.links a {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  text-decoration: none;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+
+.social-media a {
+  font-size: 20px;
+  color: #333;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.icon img {
+  max-width: 50px;
+}
+
+/* Copyright Statement */
+.copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+}
+
+  

@@ -1,0 +1,46 @@
+.dashboard-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .dashboard-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .profile-section {
+    flex: 1;
+    padding: 1rem;
+    
+  }
+  
+  .dashboard-heading {
+    flex: 2;
+    padding: 1rem;
+  }
+  
+  .dashboard-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .dashboard-middle-left {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+
+  }
+
+  .dashboard-middle-right{
+    flex: 2;
+    padding: 1rem;
+
+  }
+  
