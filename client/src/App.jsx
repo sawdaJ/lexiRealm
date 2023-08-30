@@ -7,7 +7,7 @@ import Login from './Authentification/Login';
 import Dashboard from './dashboards/Dashboard';
 import Admin from './dashboards/Admin';
 import BookPage from './Books/BookViewer';
-import QuizPage from './Quiz/QuizViewer';
+
 import ChildLogin from './Authentification/ChildLogin';
 import StudentDashboard from './dashboards/Student';
 import Booklist from './Books/BookList';
@@ -27,7 +27,6 @@ function App() {
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/admin' element={<Admin />} />
         <Route path="/bookpage/:id" element={<BookPage />} />
-        <Route path="/quiz/:id" element={<QuizPage />} />
         <Route path='/student' element={<StudentDashboard />} />
         <Route path="/books/:readingLevel" element={<BooklistByLevel/>} />
 

@@ -17,24 +17,26 @@ const StudentDashboard = () => {
       <div>
         <Navigation />
         <div className="dashboard-content">
-          <div className="dashboard-top">
+          <div className="student-top">
           <div className="profile">
         <h2>Hi! {name}</h2>
         <p>Welcome to your Dashboard</p>
         </div>
-        <div className="child-card">
+        <div className="student-card">
         <p className="child-progress">
-         Wow! you have currently Read <span className="number">{child.bookProgress.length}</span> books
+         Wow! you have currently Read <span className="studentnumber">{child.bookProgress.length}</span> books
          </p>
         <p className="child-quiz-average">
-        Your average quiz results is <span className="number">{calculateAverageQuizResult(child.quizResults)}%</span>
+        Your average quiz results is <span className="studentnumber">{calculateAverageQuizResult(child.quizResults)}%</span>
        </p>
 
         </div>
-
           </div>
+          <div className="greeting">
           <p>Your doing great {name} but you can still do better</p>
         <h3>Lets Get Reading</h3>
+          </div>
+          
         
         <Booklist />
         </div>

@@ -20,12 +20,11 @@ function Admin() {
           </div>
         </div>
         <div className="dashboard-middle">
-          <div className="dashboard-middle-left">
+          <div className="dashboard-middle-right">
             <AddContent />
           </div>
         </div>
         <div className="dashboard-bottom">
-          <h2>The Books</h2>
           <BookList />
         </div>
       </div>

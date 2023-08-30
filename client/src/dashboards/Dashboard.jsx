@@ -18,19 +18,19 @@ function Dashboard() {
             <p>
               Here you can find everything you need to make sure your kids become expert readers.
             </p>
+            <div className="dashboard-middle-left">
+            <AddChild />
+          </div>
+
           </div>
         </div>
         <div className="dashboard-middle">
-          <div className="dashboard-middle-left">
-            <AddChild />
-          </div>
           <div className="dashboard-middle-right">
             <h2>Your children</h2>
             <ChildList />
           </div>
         </div>
         <div className="dashboard-bottom">
-          <h2>Check out our books</h2>
           <Booklist />
         </div>
       </div>
